@@ -10,3 +10,4 @@ drive.mount('/content/drive')
 ```
 
 Required Tailscale, Moonlight, VNC 
+If have any error re-run script again.
