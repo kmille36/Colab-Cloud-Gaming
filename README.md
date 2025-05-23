@@ -9,6 +9,6 @@ drive.mount('/content/drive')
 !./ColabSteam
 ```
 
-Required Tailscale, Moonlight, VNC 
+Required Tailscale, Moonlight, VNC(noVNC)
 
 If have any error re-run script again.
