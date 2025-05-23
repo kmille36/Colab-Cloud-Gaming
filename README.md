@@ -1,7 +1,7 @@
 # Colab-Cloud-Gaming
 Run Steam and Play Game on Gooogle Colab
 
-[![See in Demo](https://img.youtube.com/vi/videoseries/mqdefault.jpg)](https://youtube.com/playlist?list=PLaeZFgkd40LduqR6UHV2ZqiysVTXkPHUJ)
+[![See in Demo](https://i.ibb.co/fY9gCWZ6/image-1.png](https://youtube.com/playlist?list=PLaeZFgkd40LduqR6UHV2ZqiysVTXkPHUJ)
 
 
 
