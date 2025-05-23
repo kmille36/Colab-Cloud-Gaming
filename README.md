@@ -12,7 +12,8 @@ drive.mount('/content/drive')
 !chmod +x ColabSteam
 !./ColabSteam
 ```
-
+- Control support in Moonlight work in progress...
+- 
 Required Tailscale, Moonlight, VNC(noVNC)
 
 If have any error re-run script again.
