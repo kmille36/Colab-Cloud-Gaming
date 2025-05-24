@@ -12,8 +12,8 @@ drive.mount('/content/drive')
 !chmod +x ColabSteam
 !./ColabSteam
 ```
-- Control support in Moonlight work in progress...
+- Control support in Moonlight OK (virtual gamepad and gamepad not available)
 - 
-Required Tailscale, Moonlight, VNC(noVNC)
+Required Tailscale, Moonlight.
 
 If have any error re-run script again.
