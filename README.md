@@ -19,5 +19,7 @@ Required Tailscale, Moonlight.
 - Backup features will save your session to the drive, reducing wait time by 50% on your next use (only back up once if needed; ensure the drive has more space than the game size).
 
 - Always check the remaining usage time and disconnect when not in use (4-hour play time resets every 24 hours). Do not hide or switch the Colab tab to avoid disconnection.
-- 
+
+- Drive mount is optional; you can comment out the code with # if you don't want to use it.
+  
 If have any error re-run script again.
