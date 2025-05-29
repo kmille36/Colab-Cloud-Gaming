@@ -13,7 +13,7 @@ drive.mount('/content/drive')
 !./ColabSteam
 ```
 - Control support in Moonlight OK (virtual gamepad and gamepad not available)
-- Sunshine web UI: https://ip:47990
+- Sunshine web UI: https://tailscaleip:47990
   
 Required Tailscale, Moonlight.
 
