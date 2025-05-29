@@ -13,7 +13,8 @@ drive.mount('/content/drive')
 !./ColabSteam
 ```
 - Control support in Moonlight OK (virtual gamepad and gamepad not available)
-- 
+- Sunshine web UI: https://ip:47990
+  
 Required Tailscale, Moonlight.
 
 - Backup features will save your session to the drive, reducing wait time by 50% on your next use (only back up once if needed; ensure the drive has more space than the game size).
