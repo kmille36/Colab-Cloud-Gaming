@@ -18,7 +18,7 @@ drive.mount('/content/drive')
   
 Required Tailscale, Moonlight.
 
-- Backup features will save your session to the drive, reducing wait time by 50% on your next use (only back up once if needed; ensure the drive has more space than the game size).
+- Backup features will save all your files from the current session to the drive, reducing wait time by 50–75% during your next use (only back up once if needed; ensure the drive has more space than the game size).
 
 - You can share a backup to another Drive account by sharing the download link with the target account, then creating a shortcut to the backup file in the target Drive (the backup file must not be inside any folder).
 
