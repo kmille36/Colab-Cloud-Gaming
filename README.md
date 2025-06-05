@@ -24,6 +24,6 @@ Required Tailscale, Moonlight.
 
 - Always check the remaining usage time and disconnect when not in use (4-hour play time resets every 24 hours). Do not hide or switch the Colab tab to avoid disconnection.
 
-- Drive mount is optional; you can comment out the code with # if you don't want to use it.
+- Drive mount is optional, you can comment out the code with # if you don't want to use it (i added an Open in Colab link to make it easier to use).
   
 If have any error re-run script again.
