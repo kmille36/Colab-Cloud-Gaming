@@ -8,16 +8,6 @@ UPDATED: Run Steam and Play Game on Google Colab (27/03/2026).
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Blank Colab">
 </a>
 
-<script>
-  // Get the badge link element
-  const badge = document.getElementById('blank-colab-badge');
-
-  // Force it to open in a new tab
-  badge.addEventListener('click', function(event) {
-    event.preventDefault(); // prevent default navigation
-    window.open(this.href, '_blank'); // open in new tab
-  });
-</script>
 
 ```
 from google.colab import drive
