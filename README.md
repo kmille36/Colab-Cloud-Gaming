@@ -4,9 +4,20 @@ UPDATED: Run Steam and Play Game on Google Colab (27/03/2026).
 
 [![See in Demo](https://i.ibb.co/fY9gCWZ6/image-1.png)](https://youtube.com/playlist?list=PLaeZFgkd40LduqR6UHV2ZqiysVTXkPHUJ)
 
-<a href="https://colab.research.google.com/#create=true" target="_blank">
+<a href="https://colab.research.google.com/#create=true" id="blank-colab-badge">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Blank Colab">
 </a>
+
+<script>
+  // Get the badge link element
+  const badge = document.getElementById('blank-colab-badge');
+
+  // Force it to open in a new tab
+  badge.addEventListener('click', function(event) {
+    event.preventDefault(); // prevent default navigation
+    window.open(this.href, '_blank'); // open in new tab
+  });
+</script>
 
 ```
 from google.colab import drive
