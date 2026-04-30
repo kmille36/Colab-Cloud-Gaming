@@ -4,8 +4,9 @@ UPDATED: Run Steam and Play Game on Google Colab (27/03/2026).
 
 [![See in Demo](https://i.ibb.co/fY9gCWZ6/image-1.png)](https://youtube.com/playlist?list=PLaeZFgkd40LduqR6UHV2ZqiysVTXkPHUJ)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/#create=true){:target="_blank"}
-
+<a href="https://colab.research.google.com/#create=true" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Blank Colab">
+</a>
 
 ```
 from google.colab import drive
