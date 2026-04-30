@@ -10,14 +10,14 @@ UPDATED: Run Steam and Play Game on Google Colab (27/03/2026).
 ```
 from google.colab import drive
 drive.mount('/content/drive')
-!wget -q https://github.com/kmille36/Colab-Cloud-Gaming/raw/refs/heads/main/ColabSteam
-!chmod +x ColabSteam
-!./ColabSteam
+!wget -q https://github.com/kmille36/Colab-Cloud-Gaming/raw/refs/heads/main/colab-moonweb
+!chmod +x colab-moonweb
+!./colab-moonweb
 ```
 - Control support in Moonlight OK (virtual gamepad and gamepad not available)
 - Sunshine web UI: https://tailscaleip:47990
   
-Required Tailscale, Moonlight.
+Required Chrome, Moonlight.
 
 - Backup features will save all your files from the current session to the drive, reducing wait time by 50–75% during your next use (only back up once if needed; ensure the drive has more space than the game size).
   + Example: For large Steam/Epic or any large game that has a long download/install time and requires compiling shaders on first launch — do all the necessary steps until you can play the game — then take a backup to the drive so next time you can play instantly without waiting.
