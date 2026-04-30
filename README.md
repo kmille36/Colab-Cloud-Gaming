@@ -1,5 +1,5 @@
 # Colab-Cloud-Gaming
-UPDATED: Run Steam and Play Game on Google Colab (27/03/2026).
+UPDATED: Run Steam and Play Game on Google Colab (30/04/2026).
  + Steam is working properly now!!!
 
 [![See in Demo](https://i.ibb.co/fY9gCWZ6/image-1.png)](https://youtube.com/playlist?list=PLaeZFgkd40LduqR6UHV2ZqiysVTXkPHUJ)
@@ -21,6 +21,8 @@ drive.mount('/content/drive')
 - Sunshine web UI: https://tailscaleip:47990
   
 Required Chrome, Moonlight.
+
+ - For keeping colab runtime simple login itself into chrome inside it!
 
 - Backup features will save all your files from the current session to the drive, reducing wait time by 50–75% during your next use (only back up once if needed; ensure the drive has more space than the game size).
   + Example: For large Steam/Epic or any large game that has a long download/install time and requires compiling shaders on first launch — do all the necessary steps until you can play the game — then take a backup to the drive so next time you can play instantly without waiting.
