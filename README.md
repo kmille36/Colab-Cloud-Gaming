@@ -22,6 +22,8 @@ drive.mount('/content/drive')
   
 Required Chrome, Moonlight.
 
+ - For login first time type any usr/pass u want, then add localhost as address!
+   
  - For keeping colab runtime simple login itself into chrome inside it!
 
 - Backup features will save all your files from the current session to the drive, reducing wait time by 50–75% during your next use (only back up once if needed; ensure the drive has more space than the game size).
