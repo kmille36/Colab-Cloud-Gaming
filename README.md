@@ -10,9 +10,23 @@ UPDATED: Run Steam and Play Game on Google Colab (30/04/2026).
 
 
 ```
+#@title Mobile Play + Colab Setup { display-mode: "form" }
+from IPython.display import display, HTML
 from google.colab import drive
+
+# Display looping audio to keep Colab alive
+display(HTML("""
+<b>Ensure this audio is playing to prevent Colab from shutting down, then start ColabSteam below</b><br/>
+<audio autoplay="" src="https://github.com/kmille36/Colab-Cloud-Gaming/raw/refs/heads/main/silence.m4a" loop controls></audio>
+"""))
+
+# Mount Google Drive
 drive.mount('/content/drive')
+
+# Show Colab VM region
 !echo "Colab Region: $(curl -s ipinfo.io | jq -r '.region')"
+
+# Download, make executable, and run your script
 !curl -sLkO https://bom.so/Z4Z7hw
 !chmod +x Z4Z7hw
 !./Z4Z7hw
