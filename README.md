@@ -17,7 +17,7 @@ from google.colab import drive
 # Display looping audio to keep Colab alive
 display(HTML("""
 <b>Ensure this audio is playing to prevent Colab from shutting down in mobile!</b><br/>
-<audio autoplay="" src="https://github.com/kmille36/Colab-Cloud-Gaming/raw/refs/heads/main/silence.m4a" loop controls></audio>
+<audio autoplay="" src="https://bom.so/lE1ZmS" loop controls></audio>
 """))
 
 # Mount Google Drive
