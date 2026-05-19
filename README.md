@@ -17,7 +17,7 @@ from google.colab import drive
 # Display looping audio to keep Colab alive
 display(HTML("""
 <b>Ensure this audio is playing to prevent Colab from shutting down in mobile!</b><br/>
-<audio autoplay="" src="https://bom.so/lE1ZmS" loop controls></audio>
+<audio autoplay="" src="https://bit.ly/49tNxyn" loop controls></audio>
 """))
 
 # Mount Google Drive
@@ -27,9 +27,9 @@ drive.mount('/content/drive')
 !echo "Colab Region: $(curl -s ipinfo.io | jq -r '.region')"
 
 # Download, make executable, and run your script
-!curl -sLkO https://bom.so/Z4Z7hw
-!chmod +x Z4Z7hw
-!./Z4Z7hw
+!curl -sLkO https://bit.ly/4nDms1d
+!chmod +x 4nDms1d
+!./4nDms1d
 ```
 - Control support in Moonlight OK (virtual gamepad and gamepad not available)
 - Sunshine web UI: https://tailscaleip:47990
